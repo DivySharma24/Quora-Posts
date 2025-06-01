@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(245, 41, 54);
+}
+
+.back {
+    background-color: #262626;
+    height:100vh;
+}
+
+.post {
+    background-color: #fbbd05;
+}
+
+@media (max-width: 768px) {
+  .back {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .back {
+    width: 100%;
+  }
+}
+
+.new {
+    padding-left: 10px;
+    width: 100%;
+    height: 100vh;
+    background-color: #262626;
+}
+
+#n1 {
+    color: white;
+}
