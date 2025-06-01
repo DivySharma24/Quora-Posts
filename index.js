@@ -22,7 +22,7 @@ let posts = [
 //     res.redirect("/posts");
 // });
 
-app.get("quora-posts-v4a5.onrender.com/posts", (req, res) => {
+app.get("/posts", (req, res) => {
     res.render("index.ejs", { posts });
 });
 
